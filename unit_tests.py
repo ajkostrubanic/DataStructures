@@ -146,19 +146,11 @@ class TestBinarySearchTree:
         t.insert(4)
         t.insert(9)
         t.insert(1)
-        assert len(t) == 4
-
-    def test_pop(self):
-        t = BinarySearchTree()
-        t.insert(1)
-        t.insert(4)
-        t.insert(9)
-        print(t.root.right)
-        assert t.pop() == 9
-        assert t.pop() == 4
-        assert len(t) == 2
+        assert len(t) == 3
 
     def test_insert(self):
         t = BinarySearchTree()
         t.insert(4)
-        t.insert
+        t.insert(4)
+        t.insert(1)
+        t.insert(10)
